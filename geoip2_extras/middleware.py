@@ -27,6 +27,7 @@ class GeoData(object):
         self.longitude = geoip_data.get("longitude", "")
         self.postal_code = geoip_data.get("postal_code", "")
         self.region = geoip_data.get("region", "")
+        self.time_zome = geoip_data.get("time_zome", "")
 
     def __str__(self) -> str:
         return f"GeoIP2 data for {self.ip_address}"
