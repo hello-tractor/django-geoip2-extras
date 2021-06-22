@@ -24,7 +24,7 @@ packages = [{ include = "geoip2_extras" }]
 python = "^3.7"
 django = "^2.2 || ^3.0"
 python-env-utils = "*"
-geoip2 = "^3.0.0"
+geoip2 = "^4.0.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
